@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+
+/* Html Styeles */
+html {
+    background: url(mc_bacground.jpg) fixed;
+    background-size: 100%;
+}
+
+/* body Styles  */
+
+
+body {
+    width: 100%;
+    max-width: 960px;
+    min-width: 640px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(242, 243, 105, .79);
+}
+
+
+img#loGo {
+    width: 100%;
+}
+
+
+/* nav styles */
+nav#hnav li {
+    text-align: center;
+}
+
+nav#hnav a {
+    display: block;
+    width: 25%;
+    float: left;
+}

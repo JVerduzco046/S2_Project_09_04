@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* Validation Styles */
+/* Makes the user know whether ot not the data is matches the requirements set. */
+input#name:focus:invalid,
+input#zip:focus:invalid,
+input#phone:focus:invalid,
+input#mail:focus:invalid {
+    background:
+        rgb(247, 195, 198) url(mc_stop.png) bottom right/contain no-repeat;
+}
+
+input#name:focus:valid,
+input#zip:focus:valid,
+input#phone:focus:valid,
+input#mail:focus:valid {
+    background:
+        rgb(171, 244, 171) url(mc_go.png) bottom right/contain no-repeat;
+}
+
+
+/* Fieldset Styles */
+div.orderform {
+    width: 50%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+fieldset.optgroup {
+    border-radius: 10px;
+    border-color: #0082d2;
+}
+
+/* input Styles */
+input[required] {
+    width: 100%;
+}
+
+div.formRow {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    margin: 7px;
+}
+
+div.formRow>* {
+    flex: 1 1 150px;
+    -webkit-flex: 1 1 150px;
+}
+
+
+div#buttons input {
+    margin-left: auto;
+    margin-right: auto;
+}
