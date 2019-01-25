@@ -38,6 +38,10 @@ input[required] {
     width: 100%;
 }
 
+#optgroup2 {
+    height: 100%;
+}
+
 div.formRow {
     display: -webkit-flex;
     display: flex;
@@ -52,7 +56,8 @@ div.formRow>* {
 }
 
 
-div#buttons input {
-    margin-left: auto;
-    margin-right: auto;
+#buttons {
+    text-align: center;
+    width: 100%;
+    margin-top: 2%;
 }
